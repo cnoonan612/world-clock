@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(239, 234, 242);
+  background-color: #2c3639;
+  color: #3f4e4f;
   font-family: sans-serif;
 }
 
@@ -14,7 +15,10 @@ h2 {
 }
 
 select {
+  background: #dcd7c9;
+  border-color: #3f4e4f;
   border-radius: 4px;
+  color: #3f4e4f;
   display: block;
   font-size: 16px;
   padding: 10px;
@@ -22,19 +26,23 @@ select {
 }
 
 a {
-  color: black;
+  color: #a27b5c;
+  text-decoration: none;
 }
 
 a:hover {
-  color: pink;
+  color: #a27b5c;
+  text-decoration: underline;
 }
 
 .container {
-  background: white;
+  background: #dcd7c9;
+  border-color: #3f4e4f;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
   margin: 60px auto;
   max-width: 600px;
+  opacity: 0.6;
   padding: 30px;
 }
 
@@ -66,7 +74,7 @@ a:hover {
 }
 
 footer {
-  color: rgba(0, 0, 0, 0.8);
+  color: #3f4e4f;
   font-size: 18px;
   text-align: center;
 }
